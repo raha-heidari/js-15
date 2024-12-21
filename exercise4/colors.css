@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #color-palette {
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid cornsilk;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  #rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .rectangle {
+    width: 80px;
+    height: 100px;
+    background-color: gray;
+  }
+  
+  
